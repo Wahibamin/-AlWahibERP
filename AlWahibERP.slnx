@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/Wahib.Domain/Wahib.Domain.csproj" />
+  <Project Path="src/Wahib.Application/Wahib.Application.csproj" />
+  <Project Path="src/Wahib.Infrastructure/Wahib.Infrastructure.csproj" />
+  <Project Path="src/Wahib.Desktop/Wahib.Desktop.csproj" />
+  <Project Path="tests/Wahib.Tests/Wahib.Tests.csproj" />
+</Solution>

@@ -1,0 +1,23 @@
+{
+  "checked_in_environment": "Linux source-only; .NET SDK and WPF unavailable",
+  "actual_dotnet_build_executed": false,
+  "actual_wpf_ui_executed": false,
+  "actual_dotnet_integration_tests_executed": false,
+  "passes": {
+    "project_reference_paths_exist": true,
+    "xml_parses": true,
+    "json_parses": true,
+    "sqlite_v1_schema_compiles": true,
+    "sqlite_tables": 17,
+    "sqlite_foreign_key_check": true,
+    "sqlite_constraint_smoke": {
+      "exclusive_debit_credit": true,
+      "nonzero_stock_quantity": true
+    },
+    "requirements_in_CSV": {
+      "FR": 106,
+      "NFR": 37
+    }
+  },
+  "note": "Source-level static checks only. Do not represent as verified application runtime."
+}
